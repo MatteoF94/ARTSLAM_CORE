@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  --std=c++17 -DBOOST_LOG_DYN_LINK -O3 -DNDEBUG -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib ../lib/libgtest.so -pthread 

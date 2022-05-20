@@ -1,0 +1,8 @@
+prefix=/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel
+
+Name: artslam_core
+Description: Description of artslam_core
+Version: 0.0.0
+Cflags: -I/home/matteo/catkin_ws/src/artslam_core/src
+Libs: -L${prefix}/lib -lartslam_core_io_library -lartslam_core_types_library -lartslam_core_utils_library
+Requires: 

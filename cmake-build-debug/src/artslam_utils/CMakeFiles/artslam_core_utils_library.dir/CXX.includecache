@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/types_converter.cpp
+types_converter.h
+/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/types_converter.h
+iostream
+-
+
+/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/types_converter.h
+cmath
+-
+stdio.h
+-
+stdlib.h
+-
+

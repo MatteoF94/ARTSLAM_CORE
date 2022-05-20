@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="artslam_core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\noetic\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\Modules\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\;CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\artslam_types\;CMake Files\src\artslam_utils\;CMake Files\src\artslam_io\;CMake Files\src\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clean_test_results">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean_test_results"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tests">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="download_extra_data">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 download_extra_data"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doxygen">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 doxygen"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_catkin_empty_exported_target">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googlemock/include"/>
+					<Add directory="/usr/src/googletest/googlemock"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgmock_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googlemock/include"/>
+					<Add directory="/usr/src/googletest/googlemock"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgmock.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googlemock/include"/>
+					<Add directory="/usr/src/googletest/googlemock"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgmock.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googlemock/include"/>
+					<Add directory="/usr/src/googletest/googlemock"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgtest.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib/libgtest_main.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
+					<Add directory="/usr/src/googletest/googletest/include"/>
+					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_types_library">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/libartslam_core_types_library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 artslam_core_types_library"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_types_library/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/libartslam_core_types_library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 artslam_core_types_library/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_types/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_utils_library">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/libartslam_core_utils_library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 artslam_core_utils_library"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_utils_library/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/libartslam_core_utils_library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 artslam_core_utils_library/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_io_library">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/libartslam_core_io_library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 artslam_core_io_library"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_io_library/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/libartslam_core_io_library.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 artslam_core_io_library/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/artslam_io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_io_test">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core/artslam_core_io_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 artslam_core_io_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_io_test/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core/artslam_core_io_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DBOOST_LOG_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_CHRONO_DYN_LINK"/>
+					<Add option="-DBOOST_DATE_TIME_DYN_LINK"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_LOG_SETUP_DYN_LINK"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 artslam_core_io_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_types_test">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core/artslam_core_types_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 artslam_core_types_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_types_test/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core/artslam_core_types_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 artslam_core_types_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_g2o_test">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core/artslam_core_g2o_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 artslam_core_g2o_test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="artslam_core_g2o_test/fast">
+				<Option output="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core/artslam_core_g2o_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/devel/lib/artslam_core"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/vtk-7.1"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/pcl-1.10"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/openni2"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/include"/>
+					<Add directory="/home/matteo/catkin_ws/src/artslam_core/src"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 artslam_core_g2o_test/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/kitti_reader.cpp">
+			<Option target="artslam_core_io_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/kitti_reader.hpp">
+			<Option target="artslam_core_io_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/mulran_io.cpp">
+			<Option target="artslam_core_io_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/mulran_io.h">
+			<Option target="artslam_core_io_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/pointcloud_io.cpp">
+			<Option target="artslam_core_io_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/pointcloud_io.h">
+			<Option target="artslam_core_io_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_types/keyframe.cpp">
+			<Option target="artslam_core_types_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_types/keyframe.h">
+			<Option target="artslam_core_types_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/dispatcher.cpp">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/dispatcher.h">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/eigen_utils.cpp">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/eigen_utils.h">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/radar_utils.cpp">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/radar_utils.h">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/types_converter.cpp">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/types_converter.h">
+			<Option target="artslam_core_utils_library"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/tests/artslam_core_g2o_test.cpp">
+			<Option target="artslam_core_g2o_test"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/tests/artslam_core_io_test.cpp">
+			<Option target="artslam_core_io_test"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/tests/artslam_core_types_test.cpp">
+			<Option target="artslam_core_types_test"/>
+		</Unit>
+		<Unit filename="/usr/src/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/usr/src/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/usr/src/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/usr/src/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/package.xml">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/package.xml">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/all.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/assert.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkinConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_add_env_hooks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_destinations.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_download.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_generate_environment.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_install_python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_metapackage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_package.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_package_xml.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_python_setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_symlink_install.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/catkin_workspace.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/custom_install.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/debug_message.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/em_expand.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/empy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/find_program_required.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/interrogate_setup_dot_py.py">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/legacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/list_append_deduplicate.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/list_append_unique.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/list_insert_in_workspace_order.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/python.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/stamp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/string_starts_with.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/platform/lsb.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/platform/ubuntu.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/platform/windows.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/test/catkin_download_test_data.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/test/gtest.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/test/nosetests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/test/tests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/tools/doxygen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/tools/rt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/_setup_util.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/env.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/generate_cached_setup.py.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/local_setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/pkg.context.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/pkgConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/rosinstall.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.bash.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.sh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/templates/setup.zsh.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../opt/ros/noetic/share/catkin/cmake/em/pkg.pc.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/boost_log-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/boost_log-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/libboost_log-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/libboost_log-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/boost_chrono-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/boost_chrono-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/libboost_chrono-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/libboost_chrono-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/boost_log_setup-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/boost_log_setup-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/libboost_log_setup-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_log_setup-1.71.0/libboost_log_setup-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log_setup-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindQhull.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\pcl\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/VTKTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/vtkModuleAPI.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkChartsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonComputationalGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonDataModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonExecutionModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonMath.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonMisc.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkCommonTransforms.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkDICOMParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersExtraction.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersModeling.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkFiltersStatistics.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOLegacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOPLY.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOXML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkIOXMLParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkImagingColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkImagingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkImagingFourier.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkImagingGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkImagingHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkImagingSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkInfovisCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkInteractionStyle.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkInteractionWidgets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkMetaIO.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingAnnotation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingContextOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingFreeType.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingLOD.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkRenderingVolume.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkUtilitiesEncodeString.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkViewsContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkViewsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkalglib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkexpat.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkfreetype.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkglew.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkjpeg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkkwiml.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkpng.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtksys.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtktiff.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/vtk-7.1/Modules/vtkzlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\vtk-7.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\googletest\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/src/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/src/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/../../../../../usr/src/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/catkin/catkin_generated/version/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin\catkin_generated\version\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/catkin_generated/package.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\installspace\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/cmake/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\artslam_types\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\artslam_utils\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/artslam_io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\artslam_io\"/>
+		</Unit>
+		<Unit filename="/home/matteo/catkin_ws/src/artslam_core/src/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

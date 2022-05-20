@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  --std=c++17 -DBOOST_LOG_DYN_LINK -O3 -DNDEBUG -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/matteo/catkin_ws/src/artslam_core/cmake-build-debug/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -pthread 
