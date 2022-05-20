@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  --std=c++17 -DBOOST_LOG_DYN_LINK  -O3 -DNDEBUG -shared -Wl,-soname,libartslam_core_types_library.so -o ../../devel/lib/libartslam_core_types_library.so CMakeFiles/artslam_core_types_library.dir/keyframe.cpp.o 

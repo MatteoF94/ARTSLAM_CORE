@@ -1,4 +1,0 @@
-add_subdirectory(artslam_types)
-add_subdirectory(artslam_utils)
-add_subdirectory(artslam_io)
-add_subdirectory(tests)
