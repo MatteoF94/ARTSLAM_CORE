@@ -11,9 +11,13 @@
 - g2o
 - suitesparse
 
-# Build
+## Build
 ***artslam_core*** is built using catkin, although ROS is not mandatory:
 ```bash
 cd catkin_ws/src
 git clone https://github.com/MatteoF94/ARTSLAM_CORE.git
+
 cd .. && catkin_make -DCMAKE_BUILD_TYPE=Release
+or
+cd .. && catkin build -DCMAKE_BUILD_TYPE=Release
+```
