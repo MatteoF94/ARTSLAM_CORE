@@ -48,15 +48,18 @@ namespace artslam::core::types {
     } IMU3D_MSG;
 
     // Contains information about a GNSS measurement
-    typedef struct GeoPointStampedMSG_tag {
-        Header header_;             // general information of the measurement
-        double latitude_ = 0.0;     // latitude in degrees, positive if above the Equator
-        double longitude_ = 0.0;    // longitude in degrees, positive if east of the prime meridian
-        double altitude_ = 0.0;     // altitude in meters, positive if above the WGS 84 ellipsoid
+	typedef struct GeoPointStampedMSG_tag {
+		Header header_;                 // general information of the measurement
+		double latitude_ = 0.0;         // latitude in degrees, positive if above the Equator
+		double longitude_ = 0.0;        // longitude in degrees, positive if east of the prime meridian
+		double altitude_ = 0.0;         // altitude in meters, positive if above the WGS 84 ellipsoid
+		uint8_t covariance_type_ = 0;   // covariance type (0 unknown, 1 approx, 2 only diagonal, 3 known)
+		double covariance_[9];          // position covariance
+		
+		using Ptr = std::shared_ptr<struct GeoPointStampedMSG_tag>;             // shared pointer to a GeoPointStamped_MSG
+		using ConstPtr = std::shared_ptr<const struct GeoPointStampedMSG_tag>;  // shared pointer to a constant GeoPointStamped_MSG
+	} GeoPointStamped_MSG;
 
-        using Ptr = std::shared_ptr<struct GeoPointStampedMSG_tag>;             // shared pointer to a GeoPointStamped_MSG
-        using ConstPtr = std::shared_ptr<const struct GeoPointStampedMSG_tag>;  // shared pointer to a constant GeoPointStamped_MSG
-    } GeoPointStamped_MSG;
 
     // Contains information about the coefficients of a detected 3D floor
     typedef struct FloorCoefficientsMSG_tag {

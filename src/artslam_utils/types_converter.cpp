@@ -67,7 +67,7 @@ namespace artslam::core::utils {
         longitude_origin_radians = longitude_origin * DEG_TO_RAD;
 
         UTMBand = UTM_letter_designator(latitude);
-        std::cout << "MADDAI " << UTMBand << "\n";
+        //std::cout << "MADDAI " << UTMBand << "\n";
 
         //compute the UTM Zone from the latitude and longitude
         //sprintf(UTMZone, "%d%c", zone_id, UTM_letter_designator(latitude));
