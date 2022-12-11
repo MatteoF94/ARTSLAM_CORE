@@ -93,6 +93,18 @@ namespace artslam::core::types {
         using Ptr = std::shared_ptr<struct ProcessedRadarMSG_tag>;
         using ConstPtr = std::shared_ptr<const struct ProcessedRadarMSG_tag>;
     } ProcessedRadar_MSG;
+
+    typedef struct OccupancyGrid_tag {
+        Header header_;                 // generic info 
+        float resolution_ = 0.25;       // map resolution [m]
+        unsigned int width_ = 0;        // map width (number of cells)
+        unsigned int height_ = 0;       // map height (number of cells)
+        EigIsometry3d initial_pose_ = EigIsometry3d::Identity();    // initial position of the map
+        std::vector<int> data_;
+
+        using Ptr = std::shared_ptr<struct OccupancyGrid_tag>;
+        using ConstPtr = std::shared_ptr<const struct OccupancyGrid_tag>;
+    } OccupancyGrid;
 }
 
 #endif //ARTSLAM_CORE_TYPES_SLAM_HPP
